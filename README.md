@@ -17,7 +17,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/Lairdkin/XrayR-release/master/
 # Docker 安装
 
 ```
-docker pull crackair/xrayr:latest && docker run --restart=always --name xrayr -d -v ${PATH_TO_CONFIG}/config.yml:/etc/XrayR/config.yml --network=host crackair/xrayr:latest
+docker pull daxingxing/xrayr:master && docker run --restart=always --name xrayr -d -v ${PATH_TO_CONFIG}/config.yml:/etc/XrayR/config.yml --network=host daxingxing/xrayr:master
 ```
 
 # Docker compose 安装
