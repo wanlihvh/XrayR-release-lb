@@ -12,7 +12,7 @@ Find the source code here: [Lairdkin/XrayR](https://github.com/Lairdkin/XrayR)
 # 一键安装
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Lairdkin/XrayR-release/master/install.sh)
+https://github.com/wanlihvh/XrayR-release-lb/blob/d572a15e5cdd593997b65e87972a09154062d03b/install.sh
 ```
 # Docker 安装
 
@@ -27,7 +27,7 @@ curl -fsSL https://get.docker.com | bash -s docker
 curl -L "https://github.com/docker/compose/releases/download/1.26.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 ```
-1. `git clone https://github.com/Lairdkin/XrayR-release`
+1. `git clone https://github.com/wanlihvh/XrayR-release`
 2. `cd XrayR-release`
 3. 编辑config。
 配置文件基本格式如下，Nodes下可以同时添加多个面板，多个节点配置信息，只需添加相同格式的Nodes item即可。
